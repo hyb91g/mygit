@@ -13,7 +13,7 @@ int main()
 		if(i / 10 == 9)
 			a += 1;
 	}
-	printf("有%d个9\n",a);
+	printf("有%d个9\n",a - 1);
 	system("pause");
 	return 0;
 }
