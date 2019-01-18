@@ -1,0 +1,6 @@
+﻿  text.c
+f:\比特\作业\text3_4_3\txet3_4_3\text.c(15): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  f:\比特\作业\text3_4_3\txet3_4_3\text.c(15): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  f:\比特\作业\text3_4_3\txet3_4_3\text.c(15): note: 缺失的可变参数 2 为格式字符串“%s”所需
+  f:\比特\作业\text3_4_3\txet3_4_3\text.c(15): note: 此参数用作缓冲区大小
+  txet3_4_3.vcxproj -> F:\比特\作业\text3_4_3\Debug\txet3_4_3.exe

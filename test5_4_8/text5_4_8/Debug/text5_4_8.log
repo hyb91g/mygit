@@ -1,0 +1,3 @@
+﻿  text.c
+f:\比特\作业\c语言\test5_4_8\text5_4_8\text.c(11): warning C4047: “<=”:“int”与“double (__cdecl *)(double)”的间接级别不同
+  text5_4_8.vcxproj -> F:\比特\作业\C语言\test5_4_8\Debug\text5_4_8.exe

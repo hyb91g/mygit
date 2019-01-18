@@ -1,0 +1,5 @@
+﻿  game.c
+  text.c
+  正在生成代码...
+f:\比特\作业\c语言\game1_4_20\game1_4_20\game.c(141): warning C4715: “is_win”: 不是所有的控件路径都返回值
+  game1_4_20.vcxproj -> F:\比特\作业\C语言\game1_4_20\Debug\game1_4_20.exe
