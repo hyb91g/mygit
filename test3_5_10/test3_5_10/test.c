@@ -1,4 +1,4 @@
-//Ð´Ò»¸öµÝ¹éº¯ÊýDigitSum(n)£¬ÊäÈëÒ»¸ö·Ç¸ºÕûÊý£¬·µ»Ø×é³ÉËüµÄÊý×ÖÖ®ºÍ£¬ÀýÈç£¬µ÷ÓÃDigitSum(1729)£¬ÔòÓ¦¸Ã·µ»Ø1 + 7 + 2 + 9£¬ËüµÄºÍÊÇ19
+//å†™ä¸€ä¸ªé€’å½’å‡½æ•°DigitSum(n)ï¼Œè¾“å…¥ä¸€ä¸ªéžè´Ÿæ•´æ•°ï¼Œè¿”å›žç»„æˆå®ƒçš„æ•°å­—ä¹‹å’Œï¼Œä¾‹å¦‚ï¼Œè°ƒç”¨DigitSum(1729)ï¼Œåˆ™åº”è¯¥è¿”å›ž1 + 7 + 2 + 9ï¼Œå®ƒçš„å’Œæ˜¯19
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -19,7 +19,7 @@ int main()
 	scanf_s("%d", &n);
 	if (n < 0)
 	{
-		printf("¸ºÊý\n");
+		printf("è´Ÿæ•°\n");
 		system("pause");
 		return 0;
 	}
