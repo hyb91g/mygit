@@ -44,8 +44,8 @@ void player_move(char board[ROW][COL], int row, int col)
 	int y = 0;
 	while (1)
 	{
-		printf("Íæ¼Ò×ß\n");
-		printf("ÇëÊäÈëÄãÒªÏÂÆåµÄ×ø±ê£º");
+		printf("çŽ©å®¶èµ°\n");
+		printf("è¯·è¾“å…¥ä½ è¦ä¸‹æ£‹çš„åæ ‡ï¼š");
 		scanf_s("%d %d", &x, &y);
 
 		if (((x > 0) && (x <= row)) && ((y > 0) && (y <= col)))
@@ -57,19 +57,19 @@ void player_move(char board[ROW][COL], int row, int col)
 			}
 			else
 			{
-				printf("ÊäÈëµÄ×ø±êÒÑÓÐÆå×Ó£¬ÇëÖØÐÂÊäÈë£¡\n");
+				printf("è¾“å…¥çš„åæ ‡å·²æœ‰æ£‹å­ï¼Œè¯·é‡æ–°è¾“å…¥ï¼\n");
 			}
 		}
 		else
 		{
-			printf("ÊäÈëÆå×ÓµÄ×ø±êÓÐÎó£¬ÇëÖØÐÂÊäÈë£¡\n");
+			printf("è¾“å…¥æ£‹å­çš„åæ ‡æœ‰è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼\n");
 		}
 	}
 }
 
 void computer_board(char board[ROW][COL], int row, int col)
 {
-	printf("µçÄÔ×ß\n");
+	printf("ç”µè„‘èµ°\n");
 	while (1)
 	{
 		int x = rand() % row;    //srand((unsigned int)(time(NULL))
@@ -81,7 +81,6 @@ void computer_board(char board[ROW][COL], int row, int col)
 		}
 	}
 }
-
 static int is_full(char board[ROW][COL], int row, int col)
 {
 	int i = 0;
@@ -136,6 +135,6 @@ char is_win(char board[ROW][COL], int row, int col)
 	}
 	if (is_full(board, ROW, COL) == 1)
 	{
-		return 'Q';   //±íÊ¾ÆåÅÌÂúÁË
+		return 'Q';   //è¡¨ç¤ºæ£‹ç›˜æ»¡äº†
 	}
 }
