@@ -1,4 +1,4 @@
-//ÊµÏÖÒ»¸öº¯Êı£¬ÅĞ¶ÏÒ»¸öÊıÊÇ²»ÊÇËØÊı¡£
+//å®ç°ä¸€ä¸ªå‡½æ•°ï¼Œåˆ¤æ–­ä¸€ä¸ªæ•°æ˜¯ä¸æ˜¯ç´ æ•°ã€‚
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -18,16 +18,16 @@ int prime(int a)
 int main()
 {
 	int a = 0;
-	printf("ÊäÈëÒ»¸öÊı£º");
+	printf("è¾“å…¥ä¸€ä¸ªæ•°ï¼š");
 	scanf_s("%d", &a);
 	int ret = prime(a);
 	if (ret == 1)
 	{
-		printf("%dÊÇËØÊı\n", a);
+		printf("%dæ˜¯ç´ æ•°\n", a);
 	}
 	if (ret == 0)
 	{
-		printf("%d²»ÊÇËØÊı\n", a);
+		printf("%dä¸æ˜¯ç´ æ•°\n", a);
 	}
 	system("pause");
 	return 0;
