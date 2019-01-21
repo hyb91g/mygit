@@ -1,0 +1,3 @@
+﻿  test.c
+f:\比特\作业\strcmp\strcmp\test.c(14): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+  strcmp.vcxproj -> F:\比特\作业\strcmp\Debug\strcmp.exe
