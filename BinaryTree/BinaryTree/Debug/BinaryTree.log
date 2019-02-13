@@ -1,0 +1,3 @@
+﻿  BinaryTree.c
+f:\比特\作业\数据结构\binarytree\binarytree\binarytree.c(271): warning C4101: “comp”: 未引用的局部变量
+  BinaryTree.vcxproj -> F:\比特\作业\数据结构\BinaryTree\Debug\BinaryTree.exe
