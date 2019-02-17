@@ -1,4 +1,4 @@
-//¸ø¶¨Á½¸öÕûÐÎ±äÁ¿µÄÖµ£¬½«Á½¸öÖµµÄÄÚÈÝ½øÐÐ½»»»¡£
+//ç»™å®šä¸¤ä¸ªæ•´å½¢å˜é‡çš„å€¼ï¼Œå°†ä¸¤ä¸ªå€¼çš„å†…å®¹è¿›è¡Œäº¤æ¢ã€‚
 
 #include<stdio.h>
 
@@ -14,6 +14,5 @@ int main ()
 	
 	printf("%d  %d", i, j);
 	
-
 	return 0;
 }
